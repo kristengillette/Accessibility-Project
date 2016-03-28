@@ -50,7 +50,6 @@ input[type=radio]:checked {
 
 legend {
 	color: #fff;
-	font-size: 1.2em;
 }
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {

@@ -32,9 +32,9 @@
           <img class="photo" src="img/concert01.jpg" alt="The crowd cheering for Accessible Frogs.">
           <div class="container">
           	<form action="survey.html" method="post" role="form">
-            <fieldset>
             	<p>Survey Questions:</p>
-              <label>Who is your favorite band member:</label>
+            <fieldset>
+              <legend>Who is your favorite band member:</legend>
               <input type="radio" value="John" id="John" name="band-member"> 
               <label for="John">John</label>
               <input type="radio"  id="Hazzard" value="Hazzard" name="band-member"> 
@@ -46,6 +46,7 @@
               <br>
               </fieldset>
               <fieldset>
+              	<legend>Album Favorites</legend>
               <label for="albums">What is your favorite album:</label>
               <br/>
               <select id="albums" name="select">
@@ -83,8 +84,8 @@
       <fieldset class="newsletter">
       	<legend>Contact Information:</legend>
                   <label for="name">Name: </label><input id="name" type="text" name="name"><br/>
-                  <label for="email">Email:</label> <input id="email" type ="text" name="email"><br/>
-                  <label for="re-email">Retype Email:</label> <input id="re-email" type ="text" name="resubmit-mail"><br/>
+                  <label for="email">Email:</label> <input id="email" type ="email" name="email"><br/>
+                  <label for="re-email">Retype Email:</label> <input id="re-email" type ="email" name="resubmit-mail"><br/>
                   <button type="submit" aria-describedby="email-signup">Sign Up</button>
                   <p class="form-guide" id="email-signup">Submit your email to receive our weekly newsletters.</p>
                   </fieldset>
