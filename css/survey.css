@@ -48,6 +48,12 @@ input[type=radio]:checked {
 	font-size: 0.8em;
 }
 
+<<<<<<< HEAD
+legend {
+	color: #fff;
+}
+=======
+>>>>>>> refs/remotes/origin/master
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
   .photo{
